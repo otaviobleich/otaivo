@@ -69,7 +69,5 @@ document.addEventListener('DOMContentLoaded', function (){
           const segundoParametro = "agora com dois parametros"
 
         console.log(primeiraFunçao(parametro, segundoParametro));
-
-        //otavio bleich ferreira
     
     });     
