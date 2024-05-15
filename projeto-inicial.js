@@ -61,10 +61,13 @@ document.addEventListener('DOMContentLoaded', function (){
           //funçoes são blocos de codigo que podem ser chamados e reutilizados
           //dentro dos paraenteses da função vai os parametros
           
-          function primeiraFunçao() {
-           return "ola, essa é disciplina de desenvolvimento web";
+          function primeiraFunçao(parametro) {
+           return parametro + ", " + segundoParametro; //variaveis concatenadas
           } 
 
-        console.log(primeiraFunçao());
+          const parametro = "essa é uma função com parametro"
+          const segundoParametro = "agora com dois parametros"
+
+        console.log(primeiraFunçao(parametro, segundoParametro));
     
-    });
+    });     
