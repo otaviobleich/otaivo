@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function (){
             C = 10;
             console.log("---us guri tao com tudo---")
            
-            const notaMedia = 3;
+            const notaMedia = 8;
     
             if (notaMedia >= 6){
                 alert("Aluno passou");
@@ -49,11 +49,22 @@ document.addEventListener('DOMContentLoaded', function (){
             alert("O tipo de dado é diferente")
            }
     
-          const aluno = "Charles";
-          if(aluno == "Charles") {
-           console.log("Sim é o Charles")
+          const aluno = "Otavio";
+          if(aluno == "Otavio") {
+           console.log("Sim é o Otavio")
           } else{
-            console.log("Não é o Charles")
+            console.log("Não é o Otavio")
           }
+
+          //------------/--------------
+
+          //funçoes são blocos de codigo que podem ser chamados e reutilizados
+
+          function primeiraFunçao() {
+           
+            return "ola, essa é disciplina de desenvolvimento web";
+          } 
+
+        primeiraFunçao();
     
     });
