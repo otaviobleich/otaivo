@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function (){
             const notaMedia = 8;
     
             if (notaMedia >= 6){
-                alert("Aluno passou");
+                //alert("Aluno passou");
             } 
             else if (notaMedia >= 4 && notaMedia <6){
-                alert("Aluno quase passou");
+                //alert("Aluno quase passou");
             }
             else {
-                alert("Aluno reprovou");
+                //alert("Aluno reprovou");
             }
             
            //----------- Operadores----------
@@ -43,10 +43,10 @@ document.addEventListener('DOMContentLoaded', function (){
             
            const num = 6;
            if (num === 6) {
-            alert("é igual");
+            //alert("é igual");
            }
            else{
-            alert("O tipo de dado é diferente")
+            //alert("O tipo de dado é diferente")
            }
     
           const aluno = "Otavio";
@@ -69,5 +69,25 @@ document.addEventListener('DOMContentLoaded', function (){
           const segundoParametro = "agora com dois parametros"
 
         console.log(primeiraFunçao(parametro, segundoParametro));
+
+        //----------------/-------------
+
+        //arrays em javascript são estruturas de dados que permitem armazenar uma coleção ordenada de elementos
+
+        let primeiroArray = ["otavio", "charles", "joão", "igor"];
+
+        console.log(primeiroArray[0]) //numero 0 para percorer a array
+
+        //------------/-------------
+
+        //os objetos são coleções NÃO ORDERNADAS de pares chave-valor, onde cada valor é assosiado a uma chave unica
+
+        let pessoa = {
+            nome: "otavio", 
+            idade: "18",
+            profissao: "vendedor",
+        }
+
+        console.log(pessoa["profissao"]);
 
     });     

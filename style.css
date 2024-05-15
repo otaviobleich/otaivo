@@ -4,6 +4,8 @@ body{
 
 h1{
 margin: 0;
+-webkit-text-stroke-width: 2px; /* largura da borda */
+-webkit-text-stroke-color: #000000; /* cor da borda */
 }
 
 header{
@@ -15,6 +17,7 @@ header{
     background:rgb(39, 4, 136);
     background: linear-gradient(90deg, rgb(10, 4, 26)0%, rgb(126, 64, 219)18%, rgb(115, 79, 168)100%);
     font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke-color: #000;
 }
 
 #box-categorias button{
