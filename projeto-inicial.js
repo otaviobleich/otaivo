@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function (){
             //retribuidos
             let C = 0;
             C = 10;
-            console.log("---us guri tao com tudo---")
+            console.log("---otavio é lindão ksksk---")
            
             const notaMedia = 8;
     
@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function (){
                 alert("Aluno passou");
             } 
             else if (notaMedia >= 4 && notaMedia <6){
-                alert("aluno quase passou");
+                alert("Aluno quase passou");
             }
             else {
-                alert("aluno reprovou");
+                alert("Aluno reprovou");
             }
             
            //----------- Operadores----------
@@ -69,5 +69,7 @@ document.addEventListener('DOMContentLoaded', function (){
           const segundoParametro = "agora com dois parametros"
 
         console.log(primeiraFunçao(parametro, segundoParametro));
+
+        //otavio bleich ferreira
     
     });     
