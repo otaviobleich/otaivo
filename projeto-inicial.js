@@ -70,6 +70,4 @@ document.addEventListener('DOMContentLoaded', function (){
 
         console.log(primeiraFunçao(parametro, segundoParametro));
 
-        //otavio
-    
     });     
