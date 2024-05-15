@@ -59,12 +59,12 @@ document.addEventListener('DOMContentLoaded', function (){
           //------------/--------------
 
           //funçoes são blocos de codigo que podem ser chamados e reutilizados
-
+          //dentro dos paraenteses da função vai os parametros
+          
           function primeiraFunçao() {
-           
-            return "ola, essa é disciplina de desenvolvimento web";
+           return "ola, essa é disciplina de desenvolvimento web";
           } 
 
-        primeiraFunçao();
+        console.log(primeiraFunçao());
     
     });
