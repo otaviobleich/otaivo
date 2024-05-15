@@ -90,4 +90,12 @@ document.addEventListener('DOMContentLoaded', function (){
 
         console.log(pessoa["profissao"]);
 
-    });     
+        //---------/-------------
+
+        const numeros = ["a", "b", "c", "d",]
+        
+        numeros.forEach(num => {
+            console.log(num)
+        })
+            
+        });     
